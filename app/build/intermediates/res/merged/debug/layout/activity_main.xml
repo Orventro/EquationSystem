@@ -1,0 +1,549 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orventro.equationsystem.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/input_ScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/input_container">
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_button"
+                android:text="＋"
+                style="?android:attr/borderlessButtonStyle"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/darkGrey"
+                android:textSize="40dp"
+                android:layout_gravity="end"
+                android:id="@+id/add_equation"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/input_ScrollView"
+        android:layout_above="@+id/linearLayout"
+        android:background="@color/darkWhite"
+        android:minHeight="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/output"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="1"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n1"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="2"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n2"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="3"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n3"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ligth_blue_button"
+                android:text="×"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/mult"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:src="@drawable/ic_backspace_white_48dp"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/erase"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_button"
+                android:text="="
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/darkGrey"
+                android:textSize="40dp"
+                android:id="@+id/calc"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="4"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n4"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="5"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n5"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="6"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n6"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ligth_blue_button"
+                android:text="/"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/div"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="C"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/C"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="RAD"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/deg_rad"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="7"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n7"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="8"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n8"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="9"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n9"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ligth_blue_button"
+                android:text="+"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/add"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:src="@drawable/ic_keyboard_arrow_left_white_48dp"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/left_arrow"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:src="@drawable/ic_keyboard_arrow_right_white_48dp"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/right_arrow"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="0"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/n0"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="."
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/point"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="x"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/x"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ligth_blue_button"
+                android:text="-"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/subtr"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="("
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/left_bracket"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text=")"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/right_bracket"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/dark_blue_button"
+                android:src="@drawable/ic_settings_white_48dp"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/settings"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/dark_blue_button"
+                android:text="f"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/func"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/dark_blue_button"
+                android:text="xy"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:id="@+id/select_var"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ligth_blue_button"
+                android:text="^"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/deg"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="↶"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/undo"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/blue_button"
+                android:text="↷"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:id="@+id/redo"/>
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarThumbHorizontal="@color/white"
+            android:scrollbarSize="3dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/var_container"
+                android:visibility="gone">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarThumbHorizontal="@color/white"
+            android:scrollbarSize="3dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/func_container">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

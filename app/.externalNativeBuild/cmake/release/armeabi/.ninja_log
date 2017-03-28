@@ -1,0 +1,16 @@
+# ninja log v5
+0	32	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserDLL.cpp.o	f8378ce32b36e9ec
+0	726	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserCallback.cpp.o	a0cdaee46ea2103
+32	1544	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserError.cpp.o	f976555223922c05
+0	1716	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParser.cpp.o	44e196fd6c184c45
+0	2238	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserBytecode.cpp.o	c83f8c205ce49c2b
+726	2718	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserInt.cpp.o	6ae04d6e9e84daee
+0	2791	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	f7c05ed4900b0c44
+1716	3861	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserTokenReader.cpp.o	606fa813422d0f4d
+0	4174	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserBase.cpp.o	938c4402d21827b1
+1544	4841	0	CMakeFiles/native-lib.dir/src/main/cpp/muParser/muParserTest.cpp.o	f15b79b1440380b4
+4841	5524	0	../../../../build/intermediates/cmake/release/obj/armeabi/libnative-lib.so	263de633f713afbc
+20	1204	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	f7c05ed4900b0c44
+1204	1807	0	../../../../build/intermediates/cmake/release/obj/armeabi/libnative-lib.so	263de633f713afbc
+0	1004	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	f7c05ed4900b0c44
+1004	1593	0	../../../../build/intermediates/cmake/release/obj/armeabi/libnative-lib.so	263de633f713afbc

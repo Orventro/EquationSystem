@@ -1,0 +1,3 @@
+/home/orventro/AndroidStudioProjects/Equationsystem/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/orventro/AndroidStudioProjects/Equationsystem/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/orventro/AndroidStudioProjects/Equationsystem/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Equation</string>
+    <string name="accuracy">Аккуратность</string>
+    <string name="add_info">Показать дополнительную информацию в выводе (en only)</string>
+    <string name="calculating">Идут расчеты…</string>
+    <string name="error">Нечитаемое выражение</string>
+    <string name="error_all">Нечитаемые выражения</string>
+    <string name="no_roots">Не найдено решений. Если вы считаете, что они должны быть, попробуйте увеличить аккуратность в настройках.</string>
+    <string name="to_default">Настроить по умолчанию</string>
+    <string name="accuracy_description">Если вам кажется что найдены не все корни, попробуйте увеличить этот параметр. С увеличением этого параметра время на решение растет экспоненциально, так что будьте осторожны.</string>
+    <string name="no_input">Ничего не введено</string>
+</resources>

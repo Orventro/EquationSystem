@@ -1,0 +1,15 @@
+Executable : /home/orventro/Android/Sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/orventro/AndroidStudioProjects/Equationsystem/app
+-B/home/orventro/AndroidStudioProjects/Equationsystem/app/.externalNativeBuild/cmake/release/x86_64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/home/orventro/Android/Sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/home/orventro/Android/Sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/orventro/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+jvmArgs : 
+

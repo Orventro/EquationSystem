@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Equation</string>
+    <string name="about_program">App by Timofey Chernikov.\nIf you found some bugs in my app, please email me : orventro@gmail.com \nApplication uses muParser C++ library to parse expressions.</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="accuracy_description">If you think you got not all roots, try to increase this parameter.
+    Increasing this parameter increases solving time exponentially, so be careful. </string>
+    <string name="to_default">set to default</string>
+    <string name="no_roots">No roots are found. If you think there are should be roots, try to increase accuracy in settings.</string>
+    <string name="error">Unable to parse expression</string>
+    <string name="error_all">Unable to parse expressions</string>
+    <string name="calculating">Calculating…</string>
+    <string name="add_info">Show additional information in output</string>
+    <string name="no_input">Nothing was entered</string>
+</resources>

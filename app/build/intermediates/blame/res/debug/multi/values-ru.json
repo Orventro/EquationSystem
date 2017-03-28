@@ -1,0 +1,386 @@
+[
+    {
+        "outputFile": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 114,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 170,
+                    "endColumn": 107,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 122,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 401,
+                    "endColumn": 101,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 503,
+                    "endColumn": 111,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 85,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endColumn": 104,
+                    "endOffset": 801
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 806,
+                    "endColumn": 119,
+                    "endOffset": 921
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 926,
+                    "endColumn": 78,
+                    "endOffset": 1000
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1005,
+                    "endColumn": 77,
+                    "endOffset": 1078
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1083,
+                    "endColumn": 79,
+                    "endOffset": 1158
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1163,
+                    "endColumn": 105,
+                    "endOffset": 1264
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1269,
+                    "endColumn": 107,
+                    "endOffset": 1372
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1377,
+                    "endColumn": 97,
+                    "endOffset": 1470
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1475,
+                    "endColumn": 108,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1584,
+                    "endColumn": 105,
+                    "endOffset": 1685
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1690,
+                    "endColumn": 107,
+                    "endOffset": 1793
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1798,
+                    "endColumn": 135,
+                    "endOffset": 1929
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1934,
+                    "endColumn": 99,
+                    "endOffset": 2029
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2034,
+                    "endColumn": 49,
+                    "endOffset": 2079
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2084,
+                    "endColumn": 224,
+                    "endOffset": 2304
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2309,
+                    "endColumn": 90,
+                    "endOffset": 2395
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 90,
+                        "endOffset": 237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2400,
+                    "endColumn": 45,
+                    "endOffset": 2441
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2446,
+                    "endColumn": 53,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2500,
+                    "endColumn": 54,
+                    "endOffset": 2550
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2555,
+                    "endColumn": 58,
+                    "endOffset": 2609
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2614,
+                    "endColumn": 54,
+                    "endOffset": 2664
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2669,
+                    "endColumn": 143,
+                    "endOffset": 2808
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2813,
+                    "endColumn": 80,
+                    "endOffset": 2889
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2894,
+                    "endColumn": 100,
+                    "endOffset": 2990
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2995,
+                    "endColumn": 61,
+                    "endOffset": 3052
+                },
+                "from": {
+                    "file": "/home/orventro/AndroidStudioProjects/Equationsystem/app/src/main/res/values-ru/strings.xml"
+                }
+            }
+        ]
+    }
+]
